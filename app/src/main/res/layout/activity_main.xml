@@ -27,12 +27,13 @@
         android:inputType="textPersonName|textCapWords" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="400dp" />
+        android:text="Input"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteY="400dp"
+        android:onClick="input" />
 
 </LinearLayout>
